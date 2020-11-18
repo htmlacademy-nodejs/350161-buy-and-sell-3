@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports.getRandomInt = (min, max) => {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  const minFixed = Math.ceil(min);
+  const maxFixed = Math.floor(max);
+  return Math.floor(Math.random() * (maxFixed - minFixed + 1)) + min;
 };
 
 module.exports.shuffle = (someArray) => {
