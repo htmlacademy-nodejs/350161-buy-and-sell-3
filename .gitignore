@@ -16,3 +16,4 @@ build/
 
 # Файл с моками
 /src/service/mocks.json
+/mocks.json
