@@ -15,4 +15,4 @@ module.exports.shuffle = (someArray) => {
   return someArray;
 };
 
-module.exports.getPictureFileName = (size) => `item${size.toString().padStart(2, '0')}.jpg`;
+module.exports.getPictureFileName = (size) => `item${size.toString().padStart(2, `0`)}.jpg`;
